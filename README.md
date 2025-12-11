@@ -38,16 +38,13 @@ Change data inside routes/web.php file:
 
 ```  
 use Illuminate\Support\Facades\DB;
-
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-
     $time = DB::selectOne("SELECT NOW() AS time")->time;
-    
     return "Current DB time: " . $time;
-
 });
+
 ```
 .  
 .  
