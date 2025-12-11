@@ -3,7 +3,7 @@
 This is sample project for output of time on php website taken from mysql database.
    
 .  
-After downloading docker-compose.yml, nginx/, php/, src/ do following steps:
+After downloading docker-compose.yml, nginx/, php/ do following steps:
 
 docker compose up -d
      
