@@ -5,13 +5,13 @@ This is sample project for output of time on php website taken from mysql databa
 .  
 After downloading docker-compose.yml, nginx/, php/, src/ do following steps:
 
-docker-compose up -d
+docker compose up -d
      
 .  
 .  
 Install default template Laravel project:
 
-docker-compose exec app composer create-project laravel/laravel .
+docker compose exec app composer create-project laravel/laravel .
     
 .  
 .  
@@ -54,7 +54,7 @@ Route::get('/', function () {
 .  
 And finally run:
 
-docker-compose up -d
+docker compose up -d
    
 .  
 .  
