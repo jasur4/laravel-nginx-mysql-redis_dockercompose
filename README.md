@@ -7,7 +7,6 @@ After downloading docker-compose.yml, nginx/, php/, src/ do following steps:
 docker-compose up -d
 .
 .
-.
 Install default template Laravel project:
 
 docker-compose exec app composer create-project laravel/laravel .
