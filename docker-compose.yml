@@ -10,6 +10,8 @@ services:
     depends_on:
       - mysql
       - redis
+    command: >
+      sh -c "php artisan migrate --force && php-fpm"
 
   nginx:
     image: nginx:alpine
